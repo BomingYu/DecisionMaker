@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decision Maker</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=REM:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header><h1>Many Options? Hard To Make A Decision?<br> I Will Help You!!</h1></header>
+
+    <div class="textBoxContainer" id="textBoxContainer">
+        <input type="text" class="optionText" id="op1" value="Optin 1">
+        <input type="text" class="optionText" id="op2" value="Optin 2">
+    </div>
+    <div class="buttonContainer">
+      <button class="theButton" id="addButton" onclick="addTextButton()">Add An Option</button>
+      <button class="theButton" id="decisionButton" onclick="makeDecision()">Make a Decition For Me Now!</button>
+    </div>
+    <div class="resultDiv">
+      <h3>The decision is:</h3>
+      <h2 class="result" id="result"></h2>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

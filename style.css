@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=REM:wght@400;500&display=swap');
+
+body{
+    background-color: grey;
+}
+header,.resultDiv{
+    background-color: darkgray;
+    font-family: 'REM', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.result{
+    color: rgb(204, 27, 27);
+    font-weight: 900;
+}
+
+.textBoxContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.optionText{
+    height:50px;
+    width: 90%;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.theButton{
+    font-family: 'REM', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
